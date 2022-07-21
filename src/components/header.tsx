@@ -7,8 +7,8 @@ import { PhoneOutlined } from '@ant-design/icons';
 import { FrownOutlined } from '@ant-design/icons';
 import { RocketOutlined } from '@ant-design/icons';
 import { ShoppingCartOutlined } from '@ant-design/icons';
-import logo from '../asset/images/logo1.png'
-import banner from '../asset/images/Rectangle.png'
+import logo from '../assets/images/logo1.png'
+import banner from '../assets/images/Rectangle.png'
 import { LaptopOutlined, MobileOutlined, TabletOutlined, DashboardOutlined, HomeOutlined, UsbOutlined, DesktopOutlined, VideoCameraOutlined, CrownOutlined, InsertRowLeftOutlined, InsertRowRightOutlined, LoadingOutlined } from "@ant-design/icons";
 import type { MenuProps } from 'antd';
 const { Sider, Content } = Layout;

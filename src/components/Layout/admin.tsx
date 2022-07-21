@@ -6,7 +6,7 @@ import type { MenuProps } from 'antd';
 import { Breadcrumb, Layout, Menu } from 'antd';
 import { Link, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
-import LogoImage from '../../asset/images/logo1.png'
+import LogoImage from '../../assets/images/logo1.png'
 const { Header, Content, Sider } = Layout;
 
 const item3: MenuProps['items'] = [
