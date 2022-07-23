@@ -1,35 +1,58 @@
 {
-  "users": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "phone"
+    },
+    {
+      "id": 1,
+      "name": "laptop"
+    },
+    {
+      "id": 1,
+      "name": "taplet"
+    }
+  ],
   "products": [
     {
       "name": "Dún hihi",
       "originalPrice": 111222,
       "saleOffPrice": 11212,
-      "categories": "phone",
+      "categories": "laptop",
       "feature": "- Mang lại cho quý khách những sản phẩm tốt nhất, đẹp nhất.\n- Nếu hàng bị lỗi do sản xuất. Shin Case cam kết sẽ hoàn tiền hoặc gửi lại sản mới thay thế cho quý khách.\n- Thương hiệu tạo niềm tin!",
       "description": "- Thiết kế:\n- Chất liệu: Kim Loại\n- Xuất xứ: Việt Nam",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658536582/anhhtus/kku4zxlgt8qwa9scqfum.jpg",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658540846/anhhtus/hnwpfuiwvn0xvztyzpnq.jpg",
       "id": 6
     },
     {
       "name": "Dún",
       "originalPrice": 2,
-      "saleOffPrice": -1,
+      "saleOffPrice": 1,
       "categories": "phone",
       "feature": "Với thời gian đàm thoại tối ưu, công nghệ đột phá và kết hợp cùng Hộp Sạc, AirPods đem đến trải nghiệm tai nghe không dây tuyệt vời chưa từng có. Tai nghe có thể sử dụng được với tất cả các thiết bị của bạn (2). Sau khi nhét vào tai, tai nghe sẽ kết nối ngay lập tức, đưa bạn hòa mình vào âm thanh phong phú và có độ trung thực cao. Đều tuyệt vời. ",
       "description": "Vừa vặn với mọi kích cỡ, thoải mái cả ngày dài \n•\tTự động bật, tự động kết nối \n•\tDễ dàng kết nối với tất cả thiết bị Apple của bạn (2)\n•\tĐiều khiển nhạc và cuộc gọi của bạn từ AirPods \n•\tChuyển đổi mượt mà giữa các thiết bị (2) \n•\tHộp sạc đem đến thời lượng pin hơn 24 giờ (1)\n ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658536792/anhhtus/ihhba9o6vbtlbkzlgqyg.jpg",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658538284/anhhtus/ta35bdb4uzm1yiluw2hb.jpg",
       "id": 7
     },
     {
       "name": "Apple iPhone 12 64GB",
-      "originalPrice": 24990000,
-      "saleOffPrice": 15790000,
+      "originalPrice": 2,
+      "saleOffPrice": 1,
       "categories": "phone",
       "feature": " Màn hình Super Retina XDR 6.1 inch (2)\n• Ceramic Shield, chất liệu kính bền chắc nhất từng có trên điện thoại thông minh\n• Mạng 5G cho tốc độ tải xuống siêu nhanh, xem video và nghe nhạc trực tuyến chất lượng cao (1)\n• A14 Bionic, chip nhanh nhất từng có trên điện thoại thông minh\n• Hệ thống camera kép tiên tiến 12MP với các camera Ultra Wide và Wide; chế độ Ban Đêm, Deep Fusion, HDR thông minh thế hệ 3, khả năng quay video HDR Dolby Vision 4K\n• Camera trước TrueDepth 12MP với chế độ Ban Đêm và khả năng quay video HDR Dolby Vision 4K\n• Khả năng chống nước đạt chuẩn IP68 đứng đầu thị trường (4)\n• iOS 14 với các tiện ích được thiết kế lại trên Màn Hình Chính, Thư Viện Ứng Dụng hoàn toàn mới, App\nClips cùng nhiều tính năng khác\n\n",
       "description": "iPhone 12 đẩy nhanh mọi tác vụ với mạng 5G siêu nhanh(1). A14 Bionic, chip nhanh nhất trên điện thoại thông minh. Hệ thống camera kép mới. Với màn hình Super Retina XDR tuyệt đẹp, nay bạn có thể chiêm ngưỡng từng chi tiết hình ảnh vô cùng sống động.",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658536704/anhhtus/jftotjzuludeyu88xxpq.jpg",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537276/anhhtus/cluoiavckm7ydgekiojq.jpg",
       "id": 8
+    },
+    {
+      "name": "Apple iPhone 11 128GB",
+      "originalPrice": 22900000,
+      "saleOffPrice": 12000000,
+      "categories": "laptop",
+      "feature": "Quay video 4K, chụp ảnh chân dung tuyệt đẹp và chụp ảnh phong cảnh rộng với hệ thống camera kép hoàn toàn mới. Chụp ảnh tuyệt đẹp trong điều kiện ánh sáng yếu với chế độ Ban Đêm. Xem ảnh, video và chơi game màu sắc chân thực trên màn hình Liquid Retina 6.1 inch (3). Trải nghiệm hiệu năng chưa từng có với chip A13 Bionic cho game, thực tế ảo tăng cường (AR) và chụp ảnh. Làm được nhiều việc hơn và sạc ít hơn với thời lượng pin bền bỉ cả ngày (2). Và bớt phải lo lắng nhờ khả năng chống nước ở độ sâu tối đa 2 mét trong vòng 30 phút (1).",
+      "description": " iPhone 11 có khả năng chống tia nước, chống nước và chống bụi. Sản phẩm đã qua kiểm nghiệm trong điều kiện phòng thí nghiệm có kiểm soát đạt mức IP68 theo tiêu chuẩn IEC 60529 (chống nước ở độ sâu tối đa 2 mét trong vòng tối đa 30 phút). Khả năng chống tia nước, chống nước, và chống bụi không phải là các điều kiện vĩnh viễn và khả năng này có thể giảm do hao mòn thông thường. Không sạc pin khi iPhone đang bị ướt. Vui lòng tham khảo hướng dẫn sử dụng để biết cách lau sạch và làm khô máy. Không bảo hành sản phẩm bị hỏng do thấm chất lỏng.",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537404/anhhtus/kdbiu4dcrnktnchh3wby.jpg",
+      "id": 9
     }
   ]
 }
