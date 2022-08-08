@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../asset/images/logo1.png'
+import logo from '../../assets/images/logo1.png'
 import { SubmitHandler, useForm } from 'react-hook-form'
 import { useDispatch } from 'react-redux';
 import { signIn, signUp } from '../../features/Slide/user/userSlide';
@@ -108,6 +108,7 @@ const Col2 = styled.div`
     background-color: #F8F8F8;
     position: relative;
     
+
 `
 const Logo = styled.div`
     position: absolute;

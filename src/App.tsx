@@ -16,8 +16,8 @@ import AddCategory from './pages/Admin/category/add'
 import Login from './pages/Auth/signin'
 import Signin from './pages/Auth/signin'
 import Signup from './pages/Auth/signup'
-import ListPhuKien from './page/Admin/phukien/phukien'
-import ListLinhKien from './page/Admin/linhkien/linhkien'
+import ListPhuKien from './pages/Admin/phukien/phukien'
+import ListLinhKien from './pages/Admin/linhkien/linhkien'
 import PrivateRoute from './midlerware/PrivateRoute'
 function App() {
 

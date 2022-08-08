@@ -1,31 +1,54 @@
 import { List } from 'antd'
 import React from 'react'
 import styled from 'styled-components';
-import imageProduct from '../asset/images/lk1.png';
+import lk1 from '../assets/images/lk1.png';
+import lk2 from '../assets/images/lk2.png';
+import lk3 from '../assets/images/lk3.png';
+import lk4 from '../assets/images/lk4.png';
+import lk5 from '../assets/images/lk5.png';
+import lk6 from '../assets/images/lk6.png';
+import lk7 from '../assets/images/lk7.png';
+import lk8 from '../assets/images/lk8.png';
+import lk9 from '../assets/images/lk9.png';
 type Props = {}
 
 const ComputerAccessory = (props: Props) => {
       const data = [
         {
             title: 'Title 1',
+            image:lk1
         },
         {
             title: 'Title 2',
+            image:lk2
         },
         {
             title: 'Title 3',
+            image:lk3
         },
         {
             title: 'Title 4',
+            image:lk4
         },
         {
             title: 'Title 4',
+            image:lk5
         },
         {
             title: 'Title 4',
+            image:lk6
         },
         {
             title: 'Title 4',
+            image:lk7
+        },
+        {
+            title: 'Title 4',
+            image:lk8
+        },
+        {
+            title: 'Title 4',
+            image:lk9
         }
     ];
   return (
@@ -49,7 +72,7 @@ const ComputerAccessory = (props: Props) => {
                 
                 <div>
                     <div style={{textAlign:"center"}}>
-                        <PhuKien href="" ><img  src={imageProduct} alt="" width={100} style={{width:"100%"}} /> </PhuKien>
+                        <PhuKien href="" ><img  src={item.image} alt="" width={100} style={{width:"100%"}} /> </PhuKien>
                         <NamePhuKien className='title'>Nổi bật</NamePhuKien>
                     </div>
                 </div>

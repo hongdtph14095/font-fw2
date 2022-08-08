@@ -1,58 +1,135 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "phone"
+      "name": "Điện thoại",
+      "id": 1
     },
     {
-      "id": 1,
-      "name": "laptop"
+      "name": "Phụ kiện",
+      "id": 2,
+      "key": "2"
     },
     {
+      "name": "Linh kiện",
+      "id": 3,
+      "key": "3"
+    }
+  ],
+  "detailCate": [
+    {
+      "name": "Iphone",
       "id": 1,
-      "name": "taplet"
+      "key": "1",
+      "categories": 1
+    },
+    {
+      "name": "Samsung",
+      "id": 2,
+      "key": "2",
+      "categories": 1
+    },
+    {
+      "name": "Xiaomi",
+      "id": 3,
+      "key": "3",
+      "categories": 1
+    },
+    {
+      "name": "Phụ kiện Apple",
+      "id": 4,
+      "key": "4",
+      "categories": 2
+    },
+    {
+      "name": "Dán màn hình",
+      "id": 5,
+      "key": "5",
+      "categories": 2
+    },
+    {
+      "name": "Ốp lưng - Bao da",
+      "id": 6,
+      "key": "6",
+      "categories": 2
+    },
+    {
+      "name": "phần mềm",
+      "id": 7,
+      "key": "7",
+      "categories": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "hongadmin@gmail.com",
+      "password": "$2a$10$.0g4SkEyTcm8ZF.7ZElPk.DufkTwS4gdRO12zo2DK61Lprr3pg/.C",
+      "phone": "0842027665",
+      "role": "1",
+      "id": 1
+    },
+    {
+      "email": "vanhadmin@gmail.com",
+      "password": "$2a$10$BZ5mqo3SdabBD8lANj7E6OIB1tsDtcQDaOdrDdeHyDtPXbo.ejFQa",
+      "phone": "0842027665",
+      "role": "0",
+      "id": 2
     }
   ],
   "products": [
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658540846/anhhtus/hnwpfuiwvn0xvztyzpnq.jpg",
       "name": "Dún hihi",
       "originalPrice": 111222,
       "saleOffPrice": 11212,
-      "categories": "laptop",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "- Mang lại cho quý khách những sản phẩm tốt nhất, đẹp nhất.\n- Nếu hàng bị lỗi do sản xuất. Shin Case cam kết sẽ hoàn tiền hoặc gửi lại sản mới thay thế cho quý khách.\n- Thương hiệu tạo niềm tin!",
-      "description": "- Thiết kế:\n- Chất liệu: Kim Loại\n- Xuất xứ: Việt Nam",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658540846/anhhtus/hnwpfuiwvn0xvztyzpnq.jpg",
+      "description": "- Thiết kế:update\n- Chất liệu: Kim Loại\n- Xuất xứ: Việt Nam",
       "id": 6
     },
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658538284/anhhtus/ta35bdb4uzm1yiluw2hb.jpg",
       "name": "Dún",
       "originalPrice": 2,
       "saleOffPrice": 1,
-      "categories": "phone",
+      "categories": 1,
+      "detailCate": 1,
       "feature": "Với thời gian đàm thoại tối ưu, công nghệ đột phá và kết hợp cùng Hộp Sạc, AirPods đem đến trải nghiệm tai nghe không dây tuyệt vời chưa từng có. Tai nghe có thể sử dụng được với tất cả các thiết bị của bạn (2). Sau khi nhét vào tai, tai nghe sẽ kết nối ngay lập tức, đưa bạn hòa mình vào âm thanh phong phú và có độ trung thực cao. Đều tuyệt vời. ",
       "description": "Vừa vặn với mọi kích cỡ, thoải mái cả ngày dài \n•\tTự động bật, tự động kết nối \n•\tDễ dàng kết nối với tất cả thiết bị Apple của bạn (2)\n•\tĐiều khiển nhạc và cuộc gọi của bạn từ AirPods \n•\tChuyển đổi mượt mà giữa các thiết bị (2) \n•\tHộp sạc đem đến thời lượng pin hơn 24 giờ (1)\n ",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658538284/anhhtus/ta35bdb4uzm1yiluw2hb.jpg",
       "id": 7
     },
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537276/anhhtus/cluoiavckm7ydgekiojq.jpg",
       "name": "Apple iPhone 12 64GB",
       "originalPrice": 2,
       "saleOffPrice": 1,
-      "categories": "phone",
+      "categories": 1,
+      "detailCate": 3,
       "feature": " Màn hình Super Retina XDR 6.1 inch (2)\n• Ceramic Shield, chất liệu kính bền chắc nhất từng có trên điện thoại thông minh\n• Mạng 5G cho tốc độ tải xuống siêu nhanh, xem video và nghe nhạc trực tuyến chất lượng cao (1)\n• A14 Bionic, chip nhanh nhất từng có trên điện thoại thông minh\n• Hệ thống camera kép tiên tiến 12MP với các camera Ultra Wide và Wide; chế độ Ban Đêm, Deep Fusion, HDR thông minh thế hệ 3, khả năng quay video HDR Dolby Vision 4K\n• Camera trước TrueDepth 12MP với chế độ Ban Đêm và khả năng quay video HDR Dolby Vision 4K\n• Khả năng chống nước đạt chuẩn IP68 đứng đầu thị trường (4)\n• iOS 14 với các tiện ích được thiết kế lại trên Màn Hình Chính, Thư Viện Ứng Dụng hoàn toàn mới, App\nClips cùng nhiều tính năng khác\n\n",
       "description": "iPhone 12 đẩy nhanh mọi tác vụ với mạng 5G siêu nhanh(1). A14 Bionic, chip nhanh nhất trên điện thoại thông minh. Hệ thống camera kép mới. Với màn hình Super Retina XDR tuyệt đẹp, nay bạn có thể chiêm ngưỡng từng chi tiết hình ảnh vô cùng sống động.",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537276/anhhtus/cluoiavckm7ydgekiojq.jpg",
       "id": 8
     },
     {
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537404/anhhtus/kdbiu4dcrnktnchh3wby.jpg",
       "name": "Apple iPhone 11 128GB",
       "originalPrice": 22900000,
       "saleOffPrice": 12000000,
-      "categories": "laptop",
+      "categories": 2,
+      "detailCate": 2,
       "feature": "Quay video 4K, chụp ảnh chân dung tuyệt đẹp và chụp ảnh phong cảnh rộng với hệ thống camera kép hoàn toàn mới. Chụp ảnh tuyệt đẹp trong điều kiện ánh sáng yếu với chế độ Ban Đêm. Xem ảnh, video và chơi game màu sắc chân thực trên màn hình Liquid Retina 6.1 inch (3). Trải nghiệm hiệu năng chưa từng có với chip A13 Bionic cho game, thực tế ảo tăng cường (AR) và chụp ảnh. Làm được nhiều việc hơn và sạc ít hơn với thời lượng pin bền bỉ cả ngày (2). Và bớt phải lo lắng nhờ khả năng chống nước ở độ sâu tối đa 2 mét trong vòng 30 phút (1).",
       "description": " iPhone 11 có khả năng chống tia nước, chống nước và chống bụi. Sản phẩm đã qua kiểm nghiệm trong điều kiện phòng thí nghiệm có kiểm soát đạt mức IP68 theo tiêu chuẩn IEC 60529 (chống nước ở độ sâu tối đa 2 mét trong vòng tối đa 30 phút). Khả năng chống tia nước, chống nước, và chống bụi không phải là các điều kiện vĩnh viễn và khả năng này có thể giảm do hao mòn thông thường. Không sạc pin khi iPhone đang bị ướt. Vui lòng tham khảo hướng dẫn sử dụng để biết cách lau sạch và làm khô máy. Không bảo hành sản phẩm bị hỏng do thấm chất lỏng.",
-      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1658537404/anhhtus/kdbiu4dcrnktnchh3wby.jpg",
       "id": 9
+    },
+    {
+      "name": "test",
+      "originalPrice": 3132331,
+      "saleOffPrice": 11211,
+      "categories": 3,
+      "detailCate": 7,
+      "feature": "yyyyyyyyyyyyyyyy",
+      "description": "tttttttttttttttttttttt",
+      "image": "http://res.cloudinary.com/dv3vzmogk/image/upload/v1659977109/anhhtus/xznlcrtiwp3u7eva9jan.jpg",
+      "id": 10
     }
   ]
 }

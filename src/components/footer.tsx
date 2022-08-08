@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import f1 from '../asset/images/fo1.png';
-import f2 from '../asset/images/fo2.png';
-import f3 from '../asset/images/fo3.png';
-import f4 from '../asset/images/fo4.png';
-import f5 from '../asset/images/fo5.png';
-import f6 from '../asset/images/fo6.png';
+import f1 from '../assets/images/fo1.png';
+import f2 from '../assets/images/fo2.png';
+import f3 from '../assets/images/fo3.png';
+import f4 from '../assets/images/fo4.png';
+import f5 from '../assets/images/fo5.png';
+import f6 from '../assets/images/fo6.png';
 const Footer = () => {
     return (
         <div>

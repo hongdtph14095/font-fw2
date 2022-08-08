@@ -4,14 +4,16 @@ import { Typography, Button, Input } from 'antd'
 import { PlusCircleOutlined } from '@ant-design/icons';
 import axios from "axios";
 import { upload } from "../../api/images";
+// import { upload } from "../../api/products";
 
 const { TextArea } = Input
 type  AddImageProps  = {
-    onAdd: (image: any) => void
+    onAdd: (image: any) => void,
+    img : string
    
 }
 
-const UploadImage = ({onAdd}:AddImageProps) => {
+const UploadImage = ({onAdd, img}:AddImageProps) => {
     const [base64Image, setBase64Image] = React.useState('')
     const [uploadedImage, setUploadedImage] = React.useState('')
 
@@ -36,6 +38,7 @@ const UploadImage = ({onAdd}:AddImageProps) => {
             console.log(err)
         }
     }
+    
 
     return (
         <Container>
@@ -43,16 +46,16 @@ const UploadImage = ({onAdd}:AddImageProps) => {
                 <UploadIcon>
                     <PlusCircleOutlined style={{fontSize: 30}}/>
                     <input 
-                        type="file"
+                        type="file" style={{display:"none"}}
                         accept="image/png, image/jpg, image/jpeg, image/gif"
                         name="image" onChange={handleChangeImage} />
                 </UploadIcon>
                 {/* <Button type="dashed" shape="circle" icon={<PlusCircleOutlined />} />
                 <Typography.Title level={5}>Thêm ảnh</Typography.Title> */}
 
-                {uploadedImage && (
-                    <ImagePreview style={{width:"200px"}} src={uploadedImage} alt="Image"  id="imgPreview" />
-                )}
+                {uploadedImage || img ?
+                    <ImagePreview width={150} src={uploadedImage || img} alt="Image"  id="imgPreview" />
+                : ""}
             </UploadWrapper>
             <Label>Mô tả ngắn</Label>
             <TextArea rows={4} placeholder="Mô tả ngắn" />
@@ -86,7 +89,7 @@ const UploadIcon = styled.label`
 `
 
 const ImagePreview = styled.img`
-    width: 100%;
+    max-width: 100%;
 `
 
 export default UploadImage;

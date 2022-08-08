@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Typography, Col, Row, Button, Checkbox, Form, Input, InputNumber, Select, message } from 'antd'
 import { useNavigate } from "react-router-dom";
 import { add } from '../../../api/product';
-import UploadImage from '../../../component/Product/UploadImage';
+import UploadImage from '../../../components/Product/UploadImage';
 import { listCate } from '../../../api/category';
 import { useDispatch, useSelector } from 'react-redux';
 import { getListCateDetailById } from '../../../features/Slide/categoryPhone/catePhone';
@@ -81,7 +81,7 @@ const AddProduct = () => {
 			</Breadcrumb>
 			<Row gutter={16}>
 				<Col span={10}>
-					<UploadImage onAdd={onHandleAdd} />
+					<UploadImage img={image} onAdd={onHandleAdd} />
 					{/* <UploadTest/> */}
 				</Col>
 				<Col span={14}>

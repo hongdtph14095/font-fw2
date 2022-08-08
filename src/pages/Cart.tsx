@@ -121,12 +121,14 @@ const Delete = styled.span`
     transform: rotate(180deg);
     transition: all ease-in-out 0.2s;
   }
+
 `
 const Image = styled.img`
   width: 200px;
   margin: auto;
   text-align: center;
   max-width: 100%;
+
 `
 const KhuyenMai = styled.div`
   background-color: #F6F6F6;
@@ -140,6 +142,7 @@ const NameProduct = styled.p`
   /* line-height: 10px; */
   padding: 0;
   margin: 0;
+
 `
 const SoLuong = styled.div`
    display: flex;

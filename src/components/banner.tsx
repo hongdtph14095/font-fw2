@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from '../asset/images/Rectangle.png'
+import banner from '../assets/images/Rectangle.png'
 const Banner = () => {
   return (
     <div>

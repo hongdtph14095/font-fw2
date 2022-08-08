@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Typography, Col, Row, Button, Checkbox, Form, Input, InputNumber, Select, message } from 'antd'
 import { useNavigate, useParams } from "react-router-dom";
 import { add, editProduct, getProductId, listProduct } from '../../../api/product';
-import UploadImage from '../../../component/Product/UploadImage';
+import UploadImage from '../../../components/Product/UploadImage';
 import { useQuery } from '@tanstack/react-query';
 import { editCate, getCatebyId, listCate } from '../../../api/category';
 

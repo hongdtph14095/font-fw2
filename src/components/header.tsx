@@ -2,13 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import { Input } from 'antd';
 import { MailOutlined, AppstoreOutlined, SearchOutlined } from '@ant-design/icons';
-import logo from '../asset/images/logo1.png'
+import logo from '../assets/images/logo1.png'
 import Search from 'antd/lib/transfer/search';
 import { Col, Row } from 'antd'
 import { UserOutlined } from '@ant-design/icons';
 import MenuHeader from './MenuHeader';
 import { useCart } from 'react-use-cart';
 import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar';
 const Header = () => {
    
     return (
@@ -21,7 +22,7 @@ const Header = () => {
 
                 <div style={{ margin: "auto 0" }}>
                     <div>
-                        <Input size="large" placeholder=" Search here..." style={{ borderRadius: "10px" }} prefix={<SearchOutlined/>} />
+                    <SearchBar  ></SearchBar>
                     </div>
                 </div>
 
@@ -38,6 +39,7 @@ const Logo = styled.img`
     widtd: 65px;
     height:57px;
     max-width:100%
+
 `
 
 const HeaderCo = styled.div`

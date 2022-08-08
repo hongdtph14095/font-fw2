@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Typography, Col, Row, Button, Checkbox, Form, Input, InputNumber, Select, message } from 'antd'
 import { useNavigate } from "react-router-dom";
 import { add } from '../../../api/product';
-import UploadImage from '../../../component/Product/UploadImage';
+import UploadImage from '../../../components/Product/UploadImage';
 import { addCate, listCate } from '../../../api/category';
 const { TextArea } = Input
 const { Option } = Select;

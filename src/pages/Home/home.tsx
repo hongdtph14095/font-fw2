@@ -1,8 +1,8 @@
 import React from 'react'
-import Accessory from '../../component/Accessory'
-import Banner from '../../component/banner'
-import ComputerAccessory from '../../component/ComputerAccessory'
-import Sidebar from '../../component/Sidebar'
+import Accessory from '../../components/Accessory'
+import Banner from '../../components/banner'
+import ComputerAccessory from '../../components/ComputerAccessory'
+import Sidebar from '../../components/Sidebar'
 import ListProduct from '../ListProduct'
 
 const Home = () => {
